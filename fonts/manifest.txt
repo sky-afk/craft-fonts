@@ -1,0 +1,6 @@
+# Font manifest for the Crafting Apps. One font file per line, fields separated by " | ":
+#   family | style | file (relative to the repo root) | scripts (ISO 15924, comma-separated) | licence | licence file | sha256 | source
+# Lines starting with '#' and blank lines are ignored. Apps read this file from their build.rs when
+# CRAFT_FONTS_DIR is set (see docs/integration.md), so keep the format this simple.
+# Trimmed locally: only Simplified Chinese UI face is embedded.
+Noto Sans CJK SC | Regular | fonts/noto-sans-cjk-sc/NotoSansCJKsc-Regular.otf | Hans,Latn | OFL-1.1 | fonts/noto-sans-cjk-sc/OFL.txt | 2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b | https://github.com/notofonts/noto-cjk/tree/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTF/SimplifiedChinese
